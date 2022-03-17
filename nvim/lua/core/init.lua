@@ -9,6 +9,17 @@ local leader_map = function()
 end
 
 
+-- egde theme
+function config_edge()
+	vim.cmd([[set background=light]])
+	vim.g.edge_style = "aura"
+	vim.g.edge_enable_italic = 1
+	vim.g.edge_disable_italic_comment = 1
+	vim.g.edge_show_eob = 1
+	vim.g.edge_better_performance = 1
+	vim.g.edge_transparent_background = 1
+end
+
 
 local load_core = function()
 
@@ -18,9 +29,9 @@ local load_core = function()
 	require("core.options")
 	require("core.mapping")
 	require("core.pack")
-	-- require("keymap")
-	-- pack.load_compile()
-
+	config_edge()
+	vim.cmd([[colorscheme edge]])
+	-- vim.cmd([[colorscheme catppuccin]])
 end
 
 load_core()

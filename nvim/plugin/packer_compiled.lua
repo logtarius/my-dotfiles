@@ -69,10 +69,50 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/home/gurus/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "git@github.com:hrsh7th/cmp-buffer"
+  },
+  ["cmp-cmdline"] = {
+    loaded = true,
+    path = "/home/gurus/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
+    url = "git@github.com:hrsh7th/cmp-cmdline"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/gurus/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "git@github.com:hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/home/gurus/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "git@github.com:hrsh7th/cmp-path"
+  },
+  ["cmp-vsnip"] = {
+    loaded = true,
+    path = "/home/gurus/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
+    url = "git@github.com:hrsh7th/cmp-vsnip"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/gurus/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "git@github.com:rafamadriz/friendly-snippets"
+  },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/gurus/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    url = "git@github.com:onsails/lspkind-nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/gurus/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "git@github.com:nvim-lualine/lualine.nvim"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/gurus/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "git@github.com:hrsh7th/nvim-cmp"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
@@ -98,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gurus/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "git@github.com:wbthomason/packer.nvim"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/home/gurus/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    url = "git@github.com:hrsh7th/vim-vsnip"
   }
 }
 
